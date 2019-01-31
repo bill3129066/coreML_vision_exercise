@@ -59,6 +59,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
                 return
             }
             
+            // It's like if else and break
             guard let results = request.results as? [VNClassificationObservation] else {
                 return
             }
